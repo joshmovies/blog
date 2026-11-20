@@ -11,6 +11,7 @@ layout: base.njk
   <div class="in body">
     {{ content | safe }}
   </div>
+  <div class="in">{% include "author.njk" %}</div>
   <div class="in share">
     <a class="btn pri" href="https://wa.me/?text={{ (title + ' ' + site.url + page.url) | encode }}">Share on WhatsApp</a>
     <button class="btn" type="button" data-copy>Copy link</button>
