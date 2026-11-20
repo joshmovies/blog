@@ -1,0 +1,21 @@
+name: Sync posts from Google Sheet
+on:
+  schedule:
+    - cron: "*/30 5-22 * * *"   # every 30 minutes, 6am to 11:30pm Lagos time
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/fetch-posts.mjs
+      - name: Commit new or changed posts
+        run: |
+          git config user.name "blog-sync"
+          git config user.email "blog-sync@users.noreply.github.com"
+          git add -A src/posts
+          git diff --cached --quiet || (git commit -m "Sync posts from Google Sheet" && git push)

@@ -1,0 +1,36 @@
+---
+layout: base.njk
+description: Practical notes for singers, lead vocalists and worship leaders, by Joshua Ediale.
+---
+{% set feat = collections.posts[0] %}
+<section class="mast">
+  <div class="staff" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="in">
+    <h1>Music<br>Notes<b>.</b></h1>
+    <p class="intro">For singers who lead. Practical notes on your voice, your team and your congregation, from Joshua Ediale.</p>
+  </div>
+</section>
+{% if feat %}
+<section class="feat in">
+  <a class="cover" href="{{ feat.url }}" tabindex="-1" aria-hidden="true">{{ feat.data.slug | melody | safe }}</a>
+  <div class="feat-text">
+    <p class="when">Latest, {{ feat.data.date | niceDate }}</p>
+    <h2><a href="{{ feat.url }}">{{ feat.data.title }}</a></h2>
+    {% if feat.data.description %}<p>{{ feat.data.description }}</p>{% endif %}
+    <a class="go" href="{{ feat.url }}">Read the post</a>
+  </div>
+</section>
+{% endif %}
+<section class="more in">
+  <h2 class="sec">Earlier notes</h2>
+  {% set rest = collections.posts | skip(1) %}
+  {% if rest.length %}
+  <ul class="rows">
+  {% for p in rest %}
+    <li><a href="{{ p.url }}"><span class="strip" aria-hidden="true">{{ p.data.slug | melody({ w: 480, h: 160, labels: false }) | safe }}</span><span class="rt"><span class="when">{{ p.data.date | niceDate }}</span><strong>{{ p.data.title }}</strong>{% if p.data.description %}<span class="d">{{ p.data.description }}</span>{% endif %}</span></a></li>
+  {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">New notes arrive daily. Check back tomorrow, or <a href="/feed.xml">follow the RSS feed</a>.</p>
+  {% endif %}
+</section>

@@ -1,0 +1,5 @@
+---
+permalink: /posts.json
+eleventyExcludeFromCollections: true
+---
+[{% for p in collections.posts | take(20) %}{"title":{{ p.data.title | json | safe }},"description":{{ (p.data.description or '') | json | safe }},"date":"{{ p.data.date | isoDate }}","url":"{{ site.url }}{{ p.url }}","why":{{ (p.data.why or '') | json | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]

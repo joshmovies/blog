@@ -1,0 +1,13 @@
+{
+  "name": "joshua-ediale-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy && node scripts/og.mjs",
+    "fetch": "node scripts/fetch-posts.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

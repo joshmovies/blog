@@ -1,0 +1,9 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>{{ site.title }}</title><link>{{ site.url }}/</link><description>{{ site.tagline }}</description><language>en-gb</language>
+{% for p in collections.posts | take(20) %}<item><title>{{ p.data.title }}</title><link>{{ site.url }}{{ p.url }}</link><guid>{{ site.url }}{{ p.url }}</guid><pubDate>{{ p.data.date | isoDate }}</pubDate><description>{{ p.data.description }}</description></item>
+{% endfor %}</channel></rss>

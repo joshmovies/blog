@@ -1,0 +1,30 @@
+---
+layout: base.njk
+---
+<article class="post">
+  <div class="art" aria-hidden="true">{{ slug | melody({ w: 1400, h: 380 }) | safe }}</div>
+  <header class="in head">
+    <p class="when">{{ date | niceDate }}, {{ content | striptags | readMins }} minute read</p>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="lead">{{ description }}</p>{% endif %}
+  </header>
+  <div class="in body">
+    {{ content | safe }}
+  </div>
+  <div class="in share">
+    <a class="btn pri" href="https://wa.me/?text={{ (title + ' ' + site.url + page.url) | encode }}">Share on WhatsApp</a>
+    <button class="btn" type="button" data-copy>Copy link</button>
+  </div>
+  <aside class="ask">
+    <div class="in">
+      <h2>Working on your voice?</h2>
+      <p>Tell me what you sing, where you lead and what you want to fix. I'll reply on WhatsApp.</p>
+      <a class="btn pri" href="{{ site.whatsapp }}">Message Joshua</a>
+    </div>
+  </aside>
+  {% if sources and sources.length %}
+  <section class="in sources"><h2>Sources</h2><ol>{% for s in sources %}<li><a href="{{ s }}" rel="nofollow noopener">{{ s }}</a></li>{% endfor %}</ol></section>
+  {% endif %}
+</article>
+<script>document.querySelector('[data-copy]').addEventListener('click',function(e){var b=e.currentTarget;if(navigator.clipboard)navigator.clipboard.writeText(location.href).then(function(){b.textContent='Link copied'})});</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ title | json | safe }},"description":{{ (description or '') | json | safe }},"datePublished":"{{ date | isoDate }}","image":"{{ site.url }}/posts/{{ slug }}/cover.png","author":{"@type":"Person","name":"Joshua Ediale","url":"https://joshuaediale.com"},"mainEntityOfPage":"{{ site.url }}{{ page.url }}"}</script>
