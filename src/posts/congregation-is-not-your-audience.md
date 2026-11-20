@@ -93,7 +93,7 @@ The problem is when every song becomes that moment. Know which song is for them 
 
 ## Voice and leading are 2 skills
 
-I have led music since 2009 and coached singers in 5 Nigerian states. A strong voice is one skill. Leading people is another. Leading means you listen to the room while you sing.
+I have led music since 2009, led over 1,000 live sessions and trained over 500 vocalists. A strong voice is one skill. Leading people is another. Leading means you listen to the room while you sing.
 
 If you never had formal training, that is not an insult. The same 2025 survey found that most worship leaders have no worship-related degree either. It just means nobody taught us that leading and performing are 2 different skills. The first one can be learned, and you can start this week.
 
