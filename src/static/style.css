@@ -13,7 +13,7 @@ svg{display:block;width:100%;height:auto}
 .bar{background:var(--black);color:var(--white)}
 .bar .in{max-width:1100px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
 .mark{display:flex;align-items:center;gap:10px;color:var(--white);text-decoration:none;font:800 18px/1 var(--display);letter-spacing:.02em;text-transform:uppercase}
-.mark svg{width:40px;color:var(--white)}
+.mark{text-transform:none}
 .bar nav{display:flex;gap:22px}
 .bar nav a{font:600 14px/1 var(--display);color:#d9d9d9;text-decoration:none}
 .bar nav a:hover{color:var(--orange)}
@@ -23,7 +23,7 @@ svg{display:block;width:100%;height:auto}
 .mast .in{position:relative;max-width:1100px}
 .staff{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:clamp(18px,3.4vw,38px);pointer-events:none}
 .staff i{display:block;height:2px;background:rgba(255,255,255,.14)}
-.mast h1{margin:0;font:900 clamp(64px,15vw,184px)/.86 var(--display);text-transform:uppercase;letter-spacing:-.02em}
+.mast h1{margin:0;font:900 clamp(54px,11.5vw,156px)/1 var(--display);letter-spacing:-.025em;white-space:nowrap}
 .mast h1 b{color:var(--orange)}
 .intro{max-width:520px;margin:26px 0 0;font:400 20px/1.5 var(--read);color:#d6d6d6}
 
@@ -60,8 +60,12 @@ svg{display:block;width:100%;height:auto}
 .body h2{font:800 30px/1.12 var(--display);margin:46px 0 10px;letter-spacing:-.01em}
 .body h3{font:700 22px/1.25 var(--display);margin:32px 0 6px}
 .body strong{font-weight:600}
-.body blockquote{margin:40px 0;padding:0;border:0;font:800 clamp(28px,4.4vw,40px)/1.12 var(--display);color:var(--black)}
-.body blockquote p::before{content:"";display:block;width:64px;height:6px;background:var(--orange);margin-bottom:18px}
+.body blockquote{margin:30px 0;padding:6px 0 6px 22px;border-left:4px solid var(--orange);font:italic 400 21px/1.55 var(--read);color:#2a2a2a}
+.body blockquote p{margin:0}
+/* the one memorable line: a blockquote written in bold */
+.body blockquote:has(> p > strong:only-child){border:0;padding:0;margin:44px 0;font:800 clamp(28px,4.4vw,40px)/1.12 var(--display);font-style:normal;color:var(--black)}
+.body blockquote:has(> p > strong:only-child) strong{font-weight:800}
+.body blockquote:has(> p > strong:only-child) p::before{content:"";display:block;width:64px;height:6px;background:var(--orange);margin-bottom:18px}
 .body ul{padding-left:1.1em}.body li{margin:6px 0}.body li::marker{color:var(--orange)}
  .author{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start;margin-top:44px;padding:24px;background:var(--white);border-top:6px solid var(--orange)}
 .author img{width:120px;height:120px;object-fit:cover;filter:grayscale(.15)}
@@ -101,3 +105,10 @@ svg{display:block;width:100%;height:auto}
   .mast h1{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
   @keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 }
+
+/* MusicMentor wordmark: script "Music" joined to a bold "Mentor" */
+.mm{display:inline-flex;align-items:baseline;white-space:nowrap}
+.mm-a{font-family:"Mr Dafoe",cursive;font-weight:400;color:var(--orange);font-size:1.18em;letter-spacing:0;margin-right:.02em;transform:translateY(.04em)}
+.mm-b{font-family:var(--display);font-weight:900;letter-spacing:-.02em}
+.mark .mm{font-size:24px}
+.mast h1 .mm-a{font-size:1.2em}

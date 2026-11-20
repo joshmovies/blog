@@ -1,16 +1,31 @@
 {
   "url": "https://blog.joshuaediale.com",
-  "title": "Joshua Ediale – Music Notes",
+  "title": "MusicMentor by Joshua Ediale",
   "tagline": "Practical notes for singers, lead vocalists and worship leaders.",
   "author": "Joshua Ediale",
   "main": "https://joshuaediale.com",
   "about": "https://joshuaediale.com/about",
   "whatsapp": "https://wa.me/2348033526529",
   "socials": [
-    { "name": "Instagram", "url": "https://www.instagram.com/joshuaedialeofficial" },
-    { "name": "YouTube", "url": "https://www.youtube.com/@joshuaediale" },
-    { "name": "TikTok", "url": "https://www.tiktok.com/@joshuaediale" },
-    { "name": "Facebook", "url": "https://www.facebook.com/iamjoshuaediale" },
-    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/joshuaediale" }
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/joshuaedialeofficial"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@joshuaediale"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@joshuaediale"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/iamjoshuaediale"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/joshuaediale"
+    }
   ]
 }
