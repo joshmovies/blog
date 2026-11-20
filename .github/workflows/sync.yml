@@ -1,21 +1,55 @@
-name: Sync posts from Google Sheet
+name: Publish blog
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "*/30 5-22 * * *"   # every 30 minutes, 6am to 11:30pm Lagos time
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.sync.outputs.publish }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 22 }
-      - run: node scripts/fetch-posts.mjs
-      - name: Commit new or changed posts
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Pull published posts from the Chief of Staff feed
+        id: sync
         run: |
+          node scripts/fetch-posts.mjs
           git config user.name "blog-sync"
           git config user.email "blog-sync@users.noreply.github.com"
           git add -A src/posts
-          git diff --cached --quiet || (git commit -m "Sync posts from Google Sheet" && git push)
+          if git diff --cached --quiet; then
+            echo "No new posts."
+            if [ "${{ github.event_name }}" = "schedule" ]; then echo "publish=false" >> "$GITHUB_OUTPUT"; else echo "publish=true" >> "$GITHUB_OUTPUT"; fi
+          else
+            git commit -m "Add or update posts from the Chief of Staff feed"
+            git push
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Build site
+        if: steps.sync.outputs.publish == 'true'
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.sync.outputs.publish == 'true'
+        with: { path: _site }
+  deploy:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
