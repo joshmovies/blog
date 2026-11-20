@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="Archivo, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="470" fill="#FFFFFF"/>
+  <!-- comfortable band -->
+  <rect x="70" y="230" width="880" height="170" fill="#FF8000" fill-opacity=".14"/>
+  <line x1="70" x2="950" y1="230" y2="230" stroke="#FF8000" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="70" x2="950" y1="400" y2="400" stroke="#FF8000" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="80" y="420" font-size="17" fill="#B35A00" font-weight="700" dy="1.2em">Where most of the room can sing comfortably</text>
+  <text x="40" y="236" font-size="15" fill="#555" text-anchor="middle">high</text>
+  <text x="40" y="404" font-size="15" fill="#555" text-anchor="middle">low</text>
+  <!-- left: key for your voice -->
+  <text x="290" y="60" font-size="24" font-weight="800" fill="#000" text-anchor="middle">Key chosen for your voice</text>
+  <polyline fill="none" stroke="#000" stroke-width="4" points="110,250 170,200 230,170 290,120 350,100 410,150 470,190"/>
+  <g fill="#000"><circle cx="110" cy="250" r="9"/><circle cx="170" cy="200" r="9"/><circle cx="230" cy="170" r="9"/><circle cx="290" cy="120" r="9"/><circle cx="350" cy="100" r="9"/><circle cx="410" cy="150" r="9"/><circle cx="470" cy="190" r="9"/></g>
+  <text x="290" y="92" font-size="16" fill="#555" text-anchor="middle" dy="-0.2em">the room drops out here</text>
+  <!-- right: key for the people -->
+  <text x="720" y="60" font-size="24" font-weight="800" fill="#000" text-anchor="middle">Key chosen for the people</text>
+  <polyline fill="none" stroke="#FF8000" stroke-width="4" points="540,380 600,330 660,300 720,250 780,230 840,280 900,320"/>
+  <g fill="#FF8000"><circle cx="540" cy="380" r="9"/><circle cx="600" cy="330" r="9"/><circle cx="660" cy="300" r="9"/><circle cx="720" cy="250" r="9"/><circle cx="780" cy="230" r="9"/><circle cx="840" cy="280" r="9"/><circle cx="900" cy="320" r="9"/></g>
+  <text x="720" y="200" font-size="16" fill="#555" text-anchor="middle">same melody, everyone stays in</text>
+  <line x1="505" x2="505" y1="80" y2="400" stroke="#DDD" stroke-width="2"/>
+</svg>

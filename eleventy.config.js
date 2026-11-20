@@ -14,5 +14,10 @@ export default function (cfg) {
   cfg.addFilter("take", (a, n) => (a || []).slice(0, n));
   cfg.addFilter("skip", (a, n) => (a || []).slice(n));
   cfg.addFilter("melody", (slug, opts) => melodySVG(slug, opts || {}));
+  // Same artwork as a picture, so the solfa letters are not read as page text by search engines and link previews.
+  cfg.addFilter("melodyImg", (slug, opts) => {
+    const o = opts || {}; const w = o.w || 1200, h = o.h || 420;
+    return `<img class="mel" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(melodySVG(slug, o))}" width="${w}" height="${h}" alt="">`;
+  });
   return { dir: { input: "src", includes: "_includes", output: "_site" }, markdownTemplateEngine: false };
 }

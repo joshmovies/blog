@@ -57,6 +57,8 @@ Most people in your church are not trained singers. Their comfortable range is s
 
 Think of a host who cooks a big pot of jollof for a party. The food is excellent. Then he sits down and eats it alone while the guests watch. The food did not fail. The party did.
 
+<figure><img src="/img/key-for-the-people.svg" width="1000" height="470" loading="lazy" alt="The same melody in 2 keys. In the key chosen for the leader's voice, it climbs above the range most of the congregation can sing. In the key chosen for the people, it stays inside that range."><figcaption>Same song, 2 keys. Only one of them keeps the room singing.</figcaption></figure>
+
 In the Handbook I wrote that if you must change key, the transition phase is the place to do it, before the peak, because it can be done there without causing much damage. The same thinking applies from the first song. Choose the key for the people. Your solo moments can come later.
 
 ### 2. Your words are not clear

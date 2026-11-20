@@ -12,7 +12,7 @@ description: Practical notes for singers, lead vocalists and worship leaders, by
 </section>
 {% if feat %}
 <section class="feat in">
-  <a class="cover" href="{{ feat.url }}" tabindex="-1" aria-hidden="true">{{ feat.data.slug | melody | safe }}</a>
+  <a class="cover" href="{{ feat.url }}" tabindex="-1" aria-hidden="true">{{ feat.data.slug | melodyImg | safe }}</a>
   <div class="feat-text">
     <p class="when">Latest, {{ feat.data.date | niceDate }}</p>
     <h2><a href="{{ feat.url }}">{{ feat.data.title }}</a></h2>
