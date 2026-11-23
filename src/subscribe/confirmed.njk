@@ -5,9 +5,10 @@ description: Welcome to MusicMentor.
 permalink: /subscribe/confirmed/
 ---
 <section class="in subpage">
-  <p class="kicker">Welcome to MusicMentor</p>
+  <p class="kicker">Welcome to MusicMentor by Joshua Ediale</p>
   <h1>You're in. Thank you.</h1>
-  <p class="lead">You've joined a list of singers who lead and want to keep growing: lead vocalists, worship leaders, choir members and anyone who wants to sing with more control and confidence.</p>
+  <p class="lead">MusicMentor is my blog for singers who lead. I'm Joshua Ediale, a worship leader, singer, songwriter and vocal coach, and author of <em>The Lead Singer's Handbook</em>. I've led music since 2009, and these notes come from that work.</p>
+  <p>You've joined a list of singers who lead and want to keep growing: lead vocalists, worship leaders, choir members and anyone who wants to sing with more control and confidence.</p>
   <h2 class="sec">What you'll get</h2>
   <ul class="perks">
     <li><strong>Every new note by email.</strong> Practical posts on your voice, your team and your congregation, sent as they go live. No need to go looking.</li>
@@ -19,5 +20,5 @@ permalink: /subscribe/confirmed/
   {% set latest = collections.posts | take(3) %}
   <ul class="perks">{% for p in latest %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}</ul>
   <p>Got a question about your voice or your team? <a href="{{ site.whatsapp }}">Message me on WhatsApp</a>.</p>
-  <p class="sig">Joshua</p>
+  <p class="sig">Joshua Ediale</p>
 </section>
