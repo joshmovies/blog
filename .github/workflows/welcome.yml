@@ -1,0 +1,20 @@
+name: Welcome new subscribers
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub may run a little late)
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: welcome
+  cancel-in-progress: false
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send personal welcome emails
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: python3 scripts/welcome.py
