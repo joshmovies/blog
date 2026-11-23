@@ -22,7 +22,7 @@ Nobody plans to run out. They just spent the way the money felt on the first day
 
 Singers do the same thing with air.
 
-Watch a choir on a long line. The first few words come out big and warm, like a man who has just been paid. By the last word, half the tenors have gone quiet and the sopranos are gasping in the middle of a word. They spent the breath the way it felt on the first note.
+Watch a choir on a long phrase, the stretch of words and notes you sing on one breath. The first few words come out big and warm, like a man who has just been paid. By the last word, half the tenors have gone quiet and the sopranos are gasping in the middle of a word. They spent the breath the way it felt on the first note.
 
 Your breath has a budget, and most of us are bad with money.
 
@@ -32,7 +32,7 @@ Most singers think their problem is how much air they can take in. So they gulp.
 
 The size of the breath matters far less than how fast you spend it. Ordinary lungs with control will usually outlast big lungs that pour everything into the first word.
 
-In the Handbook I wrote that "the majority of the problems singers have can be found in their inability to tame their breathing process". I still believe it. Trace a flat ending or a shaky long note back, and you will often find a phrase that ran out of money before the month did.
+In the Handbook I wrote that "the majority of the problems singers have can be found in their inability to tame their breathing process". I still believe it. Trace a flat ending or a shaky sustain (a long held note) back, and you will often find a phrase that ran out of money before the month did.
 
 > **A breath you did not plan is a breath you will borrow, usually from the middle of a word.**
 
@@ -52,16 +52,17 @@ A relaxed breath looks quieter. The shoulders stay where they are. The lower rib
 
 If you want to check yourself, rest one hand on your belly and one on the side of your waist and breathe in through your nose. If your hands move gently and your shoulders stay down, you are fine. Don't stand there for 20 minutes studying it.
 
-Don't overdo it either. Voice researcher Sally Collyer reports that singers usually start a phrase at about 70 to 80% of the most air they can take in; above that, the lungs push back like a stretched rubber band ([Collyer, NATS ICVT handout](https://www.nats.org/_Library/ICVT7/ICVT7_09_Collyer_Breathing_science_handout.pdf)). If your breath feels like a suitcase you had to sit on to close, you took too much. And between lines, a quick, quiet breath through the mouth is enough. If the sound engineer can hear your breath louder than your words, it was too big, too high or too late.
+Don't overdo it either. Voice researcher Sally Collyer reports that singers usually start a phrase at about 70 to 80% of the most air they can take in; above that, the lungs push back like a stretched rubber band ([Collyer, NATS ICVT handout](https://www.nats.org/_Library/ICVT7/ICVT7_09_Collyer_Breathing_science_handout.pdf)). If your breath feels like a suitcase you had to sit on to close, you took too much. And between lines, a catch breath is enough: a quick, quiet sip of air through the mouth. If the sound engineer can hear your breath louder than your words, it was too big, too high or too late.
 
 ## Spend it slowly
 
-This is where the budget lives.
+This is where the budget lives, and it is what makes legato possible: smooth, connected singing with no bumps between the notes.
 
 Higher notes need a bit more breath pressure, and that pressure also affects pitch. Johan Sundberg, a leading voice scientist, showed that this is why singers need fine breath control to stay in tune ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. A singer who goes flat at the end of every long phrase may not have a hearing problem at all. They may have a spending problem.
 
-Two habits help:
+Three habits help:
 
+- **Start clean.** The onset is the moment a note begins. Don't hold your breath or lock your throat before it; breathe in and let the sound start as the air turns round.
 - **Don't collapse.** After the breath, let the belly come back in gradually, but don't let the chest cave in on the first word. When the chest drops, the air rushes out with it.
 - **Give high notes a little more, not a blast.** Press the way you would press a car's accelerator on a hill: steady, not stamping. A sudden shove of air makes the note harsh and leaves you broke for the next line. I wrote about this in [Stop shouting your high notes](https://blog.joshuaediale.com/posts/stop-shouting-your-high-notes/).
 
@@ -83,11 +84,11 @@ And breath is not the whole story. If your tone is breathy, air may be leaking b
 
 Choirs and worship teams win or lose a song right here.
 
-Most singers breathe when they run out. A singer with a budget breathes where the words allow.
+Most singers breathe when they run out. A singer with a budget breathes where the words allow. That is phrasing: shaping the line so the breaths serve the meaning.
 
 Before Sunday, take the longest line in your set and agree where everyone breathes. Choose places where the meaning pauses: a comma, the end of a thought. Not in the middle of a word, and please don't split "Your" from "name". Put a small tick on the lyric sheet so the team breathes together.
 
-On a long held note, don't let the whole choir breathe at the same time and leave a hole in the sound. Let each singer sneak a quick breath at a different moment and come back in softly. The congregation hears one unbroken sound. Nobody needs to know you were all taking turns.
+On a long held note, don't let the whole choir breathe at the same time and leave a hole in the sound. Use staggered breathing: each singer sneaks a quick breath at a different moment and comes back in softly. The congregation hears one unbroken sound. Nobody needs to know you were all taking turns.
 
 If you lead, you have 2 extra challenges.
 
