@@ -12,7 +12,7 @@ description: Practical notes for singers, lead vocalists and worship leaders, by
 </section>
 {% if feat %}
 <section class="feat in">
-  <a class="cover" href="{{ feat.url }}" tabindex="-1" aria-hidden="true">{{ feat.data.slug | melodyImg | safe }}</a>
+  <a class="cover" href="{{ feat.url }}" tabindex="-1" aria-hidden="true">{{ feat.data.slug | coverImg(feat.data.cover) | safe }}</a>
   <div class="feat-text">
     <p class="when">Latest, {{ feat.data.date | niceDate }}</p>
     <h2><a href="{{ feat.url }}">{{ feat.data.title }}</a></h2>
@@ -27,7 +27,7 @@ description: Practical notes for singers, lead vocalists and worship leaders, by
   {% if rest.length %}
   <ul class="rows">
   {% for p in rest %}
-    <li><a href="{{ p.url }}"><span class="strip" aria-hidden="true">{{ p.data.slug | melody({ w: 480, h: 160, labels: false }) | safe }}</span><span class="rt"><span class="when">{{ p.data.date | niceDate }}</span><strong>{{ p.data.title }}</strong>{% if p.data.description %}<span class="d">{{ p.data.description }}</span>{% endif %}</span></a></li>
+    <li><a href="{{ p.url }}"><span class="strip" aria-hidden="true">{% if p.data.slug | hasCover(p.data.cover) %}{{ p.data.slug | coverImg(p.data.cover) | safe }}{% else %}{{ p.data.slug | melody({ w: 480, h: 160, labels: false }) | safe }}{% endif %}</span><span class="rt"><span class="when">{{ p.data.date | niceDate }}</span><strong>{{ p.data.title }}</strong>{% if p.data.description %}<span class="d">{{ p.data.description }}</span>{% endif %}</span></a></li>
   {% endfor %}
   </ul>
   {% else %}

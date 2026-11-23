@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article class="post">
-  <div class="art" aria-hidden="true">{{ slug | melodyImg({ w: 1400, h: 380 }) | safe }}</div>
+  <div class="art{% if slug | hasCover(cover) %} has-cov{% endif %}" aria-hidden="true">{{ slug | coverImg(cover, { w: 1400, h: 380 }) | safe }}</div>
   <header class="in head">
     <p class="when">{{ date | niceDate }}, {{ content | striptags | readMins }} minute read</p>
     <h1>{{ title }}</h1>

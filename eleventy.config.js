@@ -1,4 +1,5 @@
 import { melodySVG } from "./src/_data/melody.js";
+import { coverFor } from "./lib/cover.js";
 export default function (cfg) {
   cfg.addPassthroughCopy({ "src/static": "/" });
   cfg.addCollection("posts", (api) =>
@@ -19,5 +20,12 @@ export default function (cfg) {
     const o = opts || {}; const w = o.w || 1200, h = o.h || 420;
     return `<img class="mel" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(melodySVG(slug, o))}" width="${w}" height="${h}" alt="">`;
   });
+  // The post's own cover illustration if it has one, otherwise the melody stave.
+  cfg.addFilter("coverImg", (slug, fmCover, opts) => {
+    const svg = coverFor(slug, fmCover);
+    if (!svg) { const o = opts || {}; const w = o.w || 1200, h = o.h || 420; return `<img class="mel" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(melodySVG(slug, o))}" width="${w}" height="${h}" alt="">`; }
+    return `<img class="cov" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}" width="1200" height="630" alt="">`;
+  });
+  cfg.addFilter("hasCover", (slug, fmCover) => !!coverFor(slug, fmCover));
   return { dir: { input: "src", includes: "_includes", output: "_site" }, markdownTemplateEngine: false };
 }

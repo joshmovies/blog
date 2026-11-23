@@ -52,6 +52,10 @@ svg,img.mel{display:block;width:100%;height:auto}
 /* post */
 .post .art{background:var(--black)}
 .post .art svg,.post .art img.mel{max-width:1400px;margin:0 auto;height:clamp(190px,27vw,380px);object-fit:cover}
+.post .art.has-cov{background:var(--black);padding:0}
+.post .art img.cov{display:block;width:100%;max-width:1040px;height:auto;aspect-ratio:1200/630;margin:0 auto}
+.feat .cover img.cov{display:block;width:100%;height:auto;aspect-ratio:1200/630}
+.rows .strip img.cov{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
 .body figure{margin:28px 0}.body figure img{display:block;width:100%;height:auto;border:1px solid #e5e5e5}.body figcaption{margin-top:8px;font-size:15px;color:#555}
 .head{padding-top:40px}
 .head h1{margin:0 0 14px;font:900 clamp(34px,6vw,58px)/1.02 var(--display);letter-spacing:-.015em}
