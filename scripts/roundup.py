@@ -44,7 +44,6 @@ def create(path):
         "public": False,
         "published_at": None,
         "send_at": r.get("send_at"),
-        "subscriber_filter": [{"all": [{"type": "all_subscribers"}]}],
     }
     req = urllib.request.Request(
         "https://api.kit.com/v4/broadcasts", data=json.dumps(payload).encode(), method="POST",
