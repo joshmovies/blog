@@ -22,13 +22,13 @@ Nobody plans to run out. They just spent the way the money felt on the first day
 
 Singers do the same thing with air.
 
-Watch a choir on a long phrase, the stretch of words and notes you sing on one breath. The first few words come out big and warm, like a man who has just been paid. By the last word, half the tenors have gone quiet and the sopranos are gasping in the middle of a word. They spent the breath the way it felt on the first note.
+Think about the last long phrase you sang, the stretch of words and notes you sing on one breath. The first few words came out big and warm, like a man who has just been paid. By the last word you were squeezing out what was left, or snatching a breath in the middle of a word. You spent the breath the way it felt on the first note. Watch any choir and you will see a whole row doing the same thing.
 
 Your breath has a budget, and most of us are bad with money.
 
 You will hear teachers call it "breath support". Strip away the mystery and support is simply your ability to decide how fast the air leaves you.
 
-Most singers think their problem is how much air they can take in. So they gulp. They lift their shoulders. They fill up like a balloon at a children's party. Then they spend half of it on the first 2 words of the song.
+You probably think your problem is how much air you can take in. So you gulp. You lift your shoulders. You fill up like a balloon at a children's party. Then you spend half of it on the first 2 words of the song.
 
 The size of the breath matters far less than how fast you spend it. Ordinary lungs with control will usually outlast big lungs that pour everything into the first word.
 
@@ -46,7 +46,7 @@ Something we don't say enough: breathing in is natural. You do it more than 20,0
 
 So the work is mostly about getting out of the way.
 
-The most common thing that gets in the way is the "big breath" habit. Ask a singer to take a deep breath and watch the shoulders shoot up like someone has just called their name in a meeting. That is clavicular breathing, named after the collarbones (clavicles) that rise with it. Some people simply call it high breathing. It feels like a lot of air, but the neck and shoulders tense, and a tight neck makes a tight sound.
+The most common thing that gets in the way is the "big breath" habit. Take a deep breath right now. Did your shoulders shoot up like someone had just called your name in a meeting? That is clavicular breathing, named after the collarbones (clavicles) that rise with it. Some people simply call it high breathing. It feels like a lot of air, but the neck and shoulders tense, and a tight neck makes a tight sound.
 
 A relaxed breath looks quieter. The shoulders stay where they are. The lower ribs widen a little, and you feel the belly, waist and lower back loosen and move outwards.
 
@@ -58,7 +58,7 @@ Don't overdo it either. Voice researcher Sally Collyer reports that singers usua
 
 This is where the budget lives, and it is what makes legato possible: smooth, connected singing with no bumps between the notes.
 
-Notes higher in your range, especially in your upper register, need a bit more breath pressure, and that pressure also affects pitch. Johan Sundberg, a leading voice scientist, showed that this is why singers need fine breath control to stay in tune, what musicians call intonation ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. A singer who goes flat at the end of every long phrase may not have a hearing problem at all. They may have a spending problem.
+Notes higher in your range, especially in your upper register, need a bit more breath pressure, and that pressure also affects pitch. Johan Sundberg, a leading voice scientist, showed that this is why singers need fine breath control to stay in tune, what musicians call intonation ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. If you go flat at the end of long phrases, you may not have a hearing problem at all. You may have a spending problem.
 
 Three habits help:
 
@@ -70,7 +70,7 @@ Three habits help:
 
 Now let me be careful, because this is where good singers get into trouble.
 
-Give breathing attention in practice, then leave it alone. Some singers learn about breathing and suddenly every song becomes a science project. They are counting, checking their belly, tightening muscles, thinking about the diaphragm in the middle of the chorus. The voice goes stiff. The face goes serious. The congregation can see the homework.
+Give breathing attention in practice, then leave it alone. It is easy to learn about breathing and suddenly turn every song into a science project. You are counting, checking your belly, tightening muscles, thinking about the diaphragm in the middle of the chorus. The voice goes stiff. The face goes serious. The congregation can see the homework.
 
 Now the breathing is the problem.
 
@@ -82,15 +82,15 @@ And breath is not the whole story. If your tone is breathy, air may be leaking b
 
 ## Plan where you breathe
 
-Choirs, worship teams and BGVs (backing vocalists) win or lose a song right here.
+This is where you win or lose a song, whether you sing alone, on a worship team or as one of the BGVs (backing vocalists).
 
-Most singers breathe when they run out. A singer with a budget breathes where the words allow. That is phrasing: shaping the line so the breaths serve the meaning.
+Most of us breathe when we run out. A singer with a budget breathes where the words allow. That is phrasing: shaping the line so the breaths serve the meaning.
 
-Before Sunday, take the longest line in your set and agree where everyone breathes. Choose places where the meaning pauses: a comma, the end of a thought. Not in the middle of a word, and please don't split "Your" from "name". Put a small tick, a breath mark, on the lyric sheet so the team breathes together.
+Before Sunday, take the longest line you will sing and decide where you will breathe. Choose places where the meaning pauses: a comma, the end of a thought. Not in the middle of a word, and please don't split "Your" from "name". Screenshot or print the lyrics, put a small tick, a breath mark, at each place, and sing it along with the track until those breaths feel normal.
 
-In most worship teams, everyone breathes together at the same marked places. That shared breath keeps your timing and your blend (how the voices merge into one sound) tight, and it makes every cut-off, the moment the team stops a note, clean. In a big choir, where several singers share each part, a director may use staggered breathing on a very long sustained note: singers in the same section breathe at different moments so the sound never breaks. That is a special tool for a few places, not a habit, and it does not suit a small team where each part has only one or two voices.
+If you sing on a team, share your marks. In most worship teams, everyone breathes together at the same marked places. That shared breath keeps your timing and your blend (how the voices merge into one sound) tight, and it makes every cut-off, the moment the team stops a note, clean. In a big choir, where several singers share each part, a director may use staggered breathing on a very long sustained note: singers in the same section breathe at different moments so the sound never breaks. That is a special tool for a few places, not a habit, and it does not suit a small team where each part has only one or two voices.
 
-Not on a team, or on one that never plans anything? Do it alone. Take a song you sing often, screenshot or print the lyrics, mark your breaths and sing it along with the track. You can't make the whole choir change, but you can make sure you never run out halfway through a word.
+And if your team never plans this, mark your own sheet anyway. You can't make the whole choir change, but you can make sure you never run out halfway through a word.
 
 If you lead, you have 2 extra challenges.
 
@@ -110,10 +110,10 @@ The only qualification it names is breath. Not range, not tone. And that breath 
 
 Keep it simple.
 
-On your own or at your next rehearsal, take the longest line of a song you will sing this Sunday. Sing it once on a gentle "sss", then on "oo", then with the words. Notice the word where the air runs out. Take the breath earlier, before that word, mark it, and sing it again.
+Take the longest line of a song you will sing this Sunday. Sing it once on a gentle "sss", then on "oo", then with the words. Notice the word where the air runs out. Take the breath earlier, before that word, mark it, and sing it again.
 
-Then record yourself, or the team, singing that line on your phone. Do the same in 4 weeks. Listen to the last word. If it arrives whole, with no gasp before it, your budget is working.
+Then record yourself singing that line on your phone. Do the same in 4 weeks. Listen to the last word. If it arrives whole, with no gasp before it, your budget is working. If you lead a team, try it with them at rehearsal too.
 
-If a singer's voice stays hoarse for more than 2 to 3 weeks, or singing hurts, they should see a doctor, ideally an ENT specialist.
+If your voice stays hoarse for more than 2 to 3 weeks, or singing hurts, see a doctor, ideally an ENT specialist.
 
 And on Sunday, don't think about any of this. Just sing, and spend your breath on purpose.
