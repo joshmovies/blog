@@ -46,7 +46,7 @@ Something we don't say enough: breathing in is natural. You do it more than 20,0
 
 So the work is mostly about getting out of the way.
 
-The most common thing that gets in the way is the "big breath" habit. Ask a singer to take a deep breath and watch the shoulders shoot up like someone has just called their name in a meeting. That is high breathing. It feels like a lot of air, but the neck and shoulders tense, and a tight neck makes a tight sound.
+The most common thing that gets in the way is the "big breath" habit. Ask a singer to take a deep breath and watch the shoulders shoot up like someone has just called their name in a meeting. That is clavicular breathing, named after the collarbones (clavicles) that rise with it. Some people simply call it high breathing. It feels like a lot of air, but the neck and shoulders tense, and a tight neck makes a tight sound.
 
 A relaxed breath looks quieter. The shoulders stay where they are. The lower ribs widen a little, and you feel the belly, waist and lower back loosen and move outwards.
 
@@ -90,6 +90,8 @@ Before Sunday, take the longest line in your set and agree where everyone breath
 
 In most worship teams, everyone breathes together at the same marked places. That shared breath keeps your timing and your blend (how the voices merge into one sound) tight, and it makes every cut-off, the moment the team stops a note, clean. In a big choir, where several singers share each part, a director may use staggered breathing on a very long sustained note: singers in the same section breathe at different moments so the sound never breaks. That is a special tool for a few places, not a habit, and it does not suit a small team where each part has only one or two voices.
 
+Not on a team, or on one that never plans anything? Do it alone. Take a song you sing often, screenshot or print the lyrics, mark your breaths and sing it along with the track. You can't make the whole choir change, but you can make sure you never run out halfway through a word.
+
 If you lead, you have 2 extra challenges.
 
 First, you talk. You exhort, pray and give instructions, then sing again straight away. Take a quiet breath before the next line, even if it costs you a moment. A short pause hardly registers. A gasp into the microphone does.
@@ -108,9 +110,9 @@ The only qualification it names is breath. Not range, not tone. And that breath 
 
 Keep it simple.
 
-At your next rehearsal, take the longest line of your first song for Sunday. Sing it once on a gentle "sss", then on "oo", then with the words. Notice the word where the air runs out. Take the breath earlier, before that word, mark it, and sing it again.
+On your own or at your next rehearsal, take the longest line of a song you will sing this Sunday. Sing it once on a gentle "sss", then on "oo", then with the words. Notice the word where the air runs out. Take the breath earlier, before that word, mark it, and sing it again.
 
-Then record the team singing that line on your phone. Do the same in 4 weeks. Listen to the last word. If it arrives whole, with no gasp before it, your budget is working.
+Then record yourself, or the team, singing that line on your phone. Do the same in 4 weeks. Listen to the last word. If it arrives whole, with no gasp before it, your budget is working.
 
 If a singer's voice stays hoarse for more than 2 to 3 weeks, or singing hurts, they should see a doctor, ideally an ENT specialist.
 
