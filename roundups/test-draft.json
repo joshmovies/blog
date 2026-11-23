@@ -1,0 +1,6 @@
+{
+  "subject": "TEST DRAFT - do not send",
+  "preview_text": "Test of the automatic round-up",
+  "body": "Hi {{ subscriber.first_name | default: \"friend\" }},\n\nThis is a test draft created by the blog's GitHub to check that round-ups can be scheduled automatically. It is not scheduled and will not be sent.\n\nYour breath has a budget\nhttps://blog.joshuaediale.com/posts/your-breath-has-a-budget/\n\nJoshua Ediale\nMusicMentor by Joshua Ediale",
+  "send_at": null
+}

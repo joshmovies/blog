@@ -1,0 +1,29 @@
+name: Schedule round-up email
+on:
+  push:
+    branches: [main]
+    paths: ["roundups/**.json"]
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Round-up file to send to Kit (e.g. roundups/test-draft.json)"
+        required: true
+permissions:
+  contents: read
+jobs:
+  roundup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Create the Kit broadcast
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FILES="${{ github.event.inputs.file }}"
+          else
+            FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'roundups/*.json')
+          fi
+          if [ -z "$FILES" ]; then echo "No new round-up files."; exit 0; fi
+          python3 scripts/roundup.py $FILES
