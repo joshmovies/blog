@@ -12,6 +12,15 @@ layout: base.njk
     {{ content | safe }}
   </div>
   <div class="in">{% include "author.njk" %}</div>
+  {% set older = collections.posts | getNextCollectionItem(page) %}{% if not older %}{% set older = collections.posts | getPreviousCollectionItem(page) %}{% endif %}
+  {% if older %}
+  <div class="in nextread"><p class="kicker">Loved this? Read the previous note</p><a href="{{ older.url }}"><span class="nr-art" aria-hidden="true">{{ older.data.slug | coverImg(older.data.cover) | safe }}</span><strong>{{ older.data.title }}</strong></a></div>
+  {% endif %}
+  <div class="in subcta">
+    <h2>Get the next note in your inbox</h2>
+    <p>Subscribe to MusicMentor for new posts by email, plus first access to my guides, trainings and resources for singers.</p>
+    <a class="btn pri" href="/subscribe/">Subscribe free</a>
+  </div>
   <div class="in share">
     <a class="btn pri" href="https://wa.me/?text={{ (title + ' ' + site.url + page.url) | encode }}">Share on WhatsApp</a>
     <button class="btn" type="button" data-copy>Copy link</button>

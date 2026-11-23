@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: Subscribe to MusicMentor
+description: New posts by email, plus first access to Joshua Ediale's guides, trainings and resources for singers.
+permalink: /subscribe/
+---
+<section class="in subpage">
+  <p class="kicker">MusicMentor by email</p>
+  <h1>Don't miss the next note</h1>
+  <p class="lead">Practical notes for singers who lead, sent to your inbox. Subscribers also get first access to my guides, trainings and resources before anyone else.</p>
+  <ul class="perks">
+    <li>New posts as they go live</li>
+    <li>First access to guides, trainings and new resources</li>
+    <li>No spam. Unsubscribe with one click.</li>
+  </ul>
+  {% if site.kitFormId %}
+  <form class="subform" action="https://app.kit.com/forms/{{ site.kitFormId }}/subscriptions" method="post">
+    <label for="fn">First name</label><input id="fn" name="fields[first_name]" type="text" autocomplete="given-name">
+    <label for="em">Email address</label><input id="em" name="email_address" type="email" required autocomplete="email">
+    <button class="btn pri" type="submit">Subscribe free</button>
+  </form>
+  {% else %}
+  <form class="subform" id="waform">
+    <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name">
+    <label for="em">Email address</label><input id="em" type="email" required autocomplete="email">
+    <button class="btn pri" type="submit">Subscribe free</button>
+    <p class="note">This opens WhatsApp with your details filled in. Tap send and you're on the list.</p>
+  </form>
+  <script>document.getElementById('waform').addEventListener('submit',function(e){e.preventDefault();var n=document.getElementById('fn').value.trim(),m=document.getElementById('em').value.trim();location.href='{{ site.whatsapp }}?text='+encodeURIComponent('Please subscribe me to MusicMentor. Name: '+n+'. Email: '+m)});</script>
+  {% endif %}
+</section>
