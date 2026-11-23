@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: You're in
+description: Welcome to MusicMentor.
+permalink: /subscribe/confirmed/
+---
+<section class="in subpage">
+  <p class="kicker">Welcome to MusicMentor</p>
+  <h1>You're in. Thank you.</h1>
+  <p class="lead">You've joined a list of singers who lead and want to keep growing: lead vocalists, worship leaders, choir members and anyone who wants to sing with more control and confidence.</p>
+  <h2 class="sec">What you'll get</h2>
+  <ul class="perks">
+    <li><strong>Every new note by email.</strong> Practical posts on your voice, your team and your congregation, sent as they go live. No need to go looking.</li>
+    <li><strong>First access.</strong> When I release a guide, a training or a new resource for singers, subscribers hear first, before I announce it anywhere else.</li>
+    <li><strong>Notes I only send by email.</strong> Now and then, something short that doesn't make it to the blog.</li>
+  </ul>
+  <p>I won't flood your inbox, and I'll never sell or share your email. Every email has a one-click unsubscribe link.</p>
+  <h2 class="sec">Start here</h2>
+  {% set latest = collections.posts | take(3) %}
+  <ul class="perks">{% for p in latest %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}</ul>
+  <p>Got a question about your voice or your team? <a href="{{ site.whatsapp }}">Message me on WhatsApp</a>.</p>
+  <p class="sig">Joshua</p>
+</section>

@@ -134,3 +134,4 @@ svg,img.mel{display:block;width:100%;height:auto}
 .subform input{font:400 18px/1.4 var(--read);padding:12px;border:2px solid var(--black);border-radius:0}
 .subform button{margin-top:12px;justify-self:start}.subform .note{font-size:15px;color:var(--grey);margin:8px 0 0}
 @media (max-width:800px){.nextread a{grid-template-columns:96px 1fr}.nextread strong{font-size:18px}}
+.subpage .sec{margin-top:34px}.subpage .perks li{margin:10px 0}.subpage .sig{font:700 20px/1 var(--display);margin-top:28px}
