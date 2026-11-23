@@ -1,16 +1,15 @@
 ---json
 {
   "title": "Your breath has a budget",
-  "description": "Most singers run out of air because they spend it too fast. The breath budget, what a Danish lung trial found, and a 6-minute warm-up for rehearsal.",
+  "description": "Most singers run out of air because they spend it too fast. How to take the breath low, spend it slowly and plan where you breathe, plus a 4-week test.",
   "date": "2026-11-23",
   "slug": "your-breath-has-a-budget",
   "tags_list": "Music",
   "why": "Daily post: from the 21 Nov music research (Singing for Lung Health trial), an unused finding; first post on breathing and breath support.",
   "sources": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9117735",
-    "https://www.dovepress.com/effect-of-singing-on-symptoms-in-stable-copd-a-systematic-review-and-m-peer-reviewed-fulltext-article-COPD",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC4861272",
-    "https://discovery-pp.ucl.ac.uk/10135143/1/e053189.full.pdf",
+    "https://www.nats.org/_Library/ICVT7/ICVT7_09_Collyer_Breathing_science_handout.pdf",
+    "https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf",
     "https://nats.org/_Library/JOS_On_Point/JOS-081-2-2024-205.pdf",
     "https://www.biblegateway.com/verse/en/Psalm%20150:6"
   ]
@@ -25,87 +24,98 @@ Singers do the same thing with air.
 
 Watch a choir on a long line. The first few words come out big and warm. By the last word, half the tenors have gone quiet and the sopranos are gasping in the middle of a word. They spent the breath the way it felt on the first note.
 
-## Your breath budget
+## Spend it like salary
 
-A phrase is a group of words and notes sung as one thought, usually between 2 breaths. Your breath budget is the air you take in before a phrase, shared out so that it lasts to the final word with a little left over.
+When I teach breathing, I split it into 2 parts: inhalation and exhalation. Most singers only work on the first. They want a bigger breath. But how you inhale governs how you exhale, and how you exhale controls the quality, volume, pitch and tone of the sound.
 
-That second part is where most of us fail. We think breathing for singing is about how much air we take in. The bigger problem is how fast we let it out.
+Breath budgeting is what you do with the exhale. You share out the air you took in so that it lasts to the last word of the phrase, with a little left over. A phrase here means a group of words sung as one thought, usually between 2 breaths.
 
-Singing teachers call that control "breath support": the work your body does to stop the air rushing out all at once. A singer with average lungs and good control will usually outlast a singer with big lungs who dumps it all on the first word.
+You will hear teachers call this "breath support". Support is simply your ability to decide how fast the air leaves you. The size of the breath matters far less than how fast you spend it. Ordinary lungs with control will usually outlast big lungs that pour everything into the first word.
 
-There is some outside evidence for this, though it is thin. In a small Australian study, 7 trained classical singers used less air per second than 4 untrained men when both groups sang the same simple song ([Salomoni et al., PLoS ONE, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4861272)). When each person sang a piece of their own choice, that difference disappeared. So treat it as a hint, from a small group, that training changes how you spend air.
-
-In the Handbook I wrote that "the majority of the problems singers have can be found in their inability to tame their breathing process". I still believe it. A flat ending or a long note that shakes often traces back to a phrase that ran out of air.
-
-Breathing in the middle of a long line is allowed. The difference is between a breath you planned and one you were forced to take.
+In the Handbook I wrote that "the majority of the problems singers have can be found in their inability to tame their breathing process". After about 15 years of training singers, I still believe it. Trace a flat ending or a shaky long note back, and you often find a phrase that ran out of air.
 
 > **A breath you did not plan is a breath you will borrow, usually from the middle of a word.**
 
 <figure><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img" aria-label="Two lines showing air left during one sung phrase. The dumped breath falls steeply and runs out before the last word. The budgeted breath falls slowly and still has air at the last word."><rect width="1000" height="470" fill="#FFFFFF"/><line x1="120" y1="60" x2="120" y2="380" stroke="#000000" stroke-width="3"/><line x1="120" y1="380" x2="900" y2="380" stroke="#000000" stroke-width="3"/><text x="40" y="70" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Full</text><text x="40" y="385" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Empty</text><text x="120" y="420" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">First word</text><text x="760" y="420" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Last word</text><polyline points="120,70 300,250 450,350 520,380" fill="none" stroke="#000000" stroke-width="5"/><text x="440" y="300" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Dumped: empty too early</text><polyline points="120,70 900,300" fill="none" stroke="#FF8000" stroke-width="5"/><text x="600" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#FF8000">Budgeted: air left at the end</text><text x="120" y="460" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#000000">One phrase, one breath</text></svg><figcaption>Same lungs, same phrase. The only difference is how fast the air leaves.</figcaption></figure>
 
-## When a rehab programme was built on singing
+So how do you budget? Please follow, I am heading somewhere. There are 3 parts: take the breath low, spend it slowly and plan where you breathe.
 
-Here is a finding I did not expect to share on a music blog.
+## Part 1: Take the breath low
 
-COPD (chronic obstructive pulmonary disease) is a long-term lung condition that leaves people breathless. Part of the standard care is pulmonary rehabilitation: supervised exercise and breathing classes.
+Ask most people to take a big breath and watch. The shoulders rise and the upper chest lifts. This is clavicular, or high, breathing. It feels like plenty of air, but the neck and shoulders tense and you lose control of how the air comes out.
 
-In Denmark, researchers took 270 people with COPD at 11 community rehab services and split them into 2 groups. For 10 weeks, twice a week, one group did the usual physical exercise training. The other did "Singing for Lung Health", a method developed in the UK. Each 90-minute session had a 20-minute physical warm-up, a 20-minute vocal warm-up with breathing and posture work, 40 minutes of singing and a 10-minute cool-down.
+A low breath looks different. The diaphragm, the dome-shaped muscle under your lungs, moves down, and your lower ribs widen. You feel it as your belly, waist and lower back moving outwards. In my notes I put it this way: protrusion is the test of true breathing.
 
-The main test was the 6-minute walk, which measures how far a person can walk in 6 minutes. Both groups improved by about the same amount, roughly 13 to 14 metres. Those gains were modest: only about 1 in 4 people in each group reached the 30 metres that patients notice in daily life.
+Your ribs are meant to move; widening the lower ribs is good. A small lift in the chest that comes along with a low breath is normal too. That is called sympathetic motion. The problem is when the upper chest and shoulders do the work.
 
-The researchers concluded that the singing programme was "non-inferior", which means it did no worse than standard exercise. Breathlessness and anxiety scores did not differ between the groups ([Kaasgaard et al., European Respiratory Journal, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9117735)).
+Try this right now. Put one hand on your belly and the other on the side of your waist, and breathe in slowly through your nose. If both hands move out and your shoulders stay down, you breathed low. If your shoulders rose and your hands barely moved, you breathed high.
 
-Now the limits. Just over 1 in 4 people dropped out. The patients knew which group they were in, although the staff who measured them did not. The follow-up was short, and the singing sat inside a full rehab programme, alongside medical care.
+A small Australian study of 11 people points the same way: classical singers used about 2.5 times more belly movement than untrained people, though the ribs still did most of the work ([Salomoni et al., PLoS ONE, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4861272)).
 
-A 2022 review pooled 5 trials from several countries, with 333 patients in total ([Fang et al., International Journal of COPD, 2022](https://www.dovepress.com/effect-of-singing-on-symptoms-in-stable-copd-a-systematic-review-and-m-peer-reviewed-fulltext-article-COPD)). Singing improved the physical part of a quality-of-life score and, in one trial, the strength of breathing out. It did not improve lung function, anxiety or walking distance, and the studies were small.
+Two more things about the breath itself.
 
-Closer to home, a team at the Makerere University Lung Institute in Kampala adapted Singing for Lung Health to local songs. They interviewed 19 patients and health workers about it ([Philip et al., BMJ Open, 2021](https://discovery-pp.ucl.ac.uk/10135143/1/e053189.full.pdf)). That study recorded opinions, not results, and it was a single clinic.
+**Don't fill to bursting.** Voice researcher Sally Collyer reports that singers usually start a phrase at about 70 to 80% of the most air they can take in. Above that, the lungs push back like a stretched rubber band, and you waste effort holding the air in ([Collyer, NATS ICVT handout](https://www.nats.org/_Library/ICVT7/ICVT7_09_Collyer_Breathing_science_handout.pdf)). A comfortable full breath beats a desperate gulp.
 
-So I will not tell you singing heals lungs. It does not. Anyone with a lung condition should speak to their doctor before joining a singing-for-health group.
+**Know your breaths.** Before a song or at a long rest, take a deep breath through the nose. Then there is the onset: the moment just before the first note, when you have breathed in and your body is set. Don't hold your breath there or lock your throat. Breathe in, and let the note start as the air turns round. Between lines there is rarely time for a deep breath, so you need a snatch breath: quick, quiet, through the mouth, and still low. A noisy gasp into the microphone is a breath taken too high and too late.
 
-My own conclusion is narrower. A programme built on breathing, posture and singing did as well as exercise training for these patients. That tells me the breath and posture minutes at the start of our rehearsals deserve to be treated as training. I would stop rushing them to get to the songs.
+Posture helps all of this: feet apart, knees soft, shoulders down, head level. Some teachers picture carrying a bucket of water in each hand. And loosen a tight belt before you sing.
 
-## What the coal pot already knows
+## Part 2: Spend it slowly
 
-If you have ever started a coal pot, you already understand breath support.
+This is breath budgeting proper. In my notes I call it controlled exhalation.
 
-You light the charcoal and it glows faintly. Lean in and blow one big blast, and ash flies into your face while the glow flickers. Blow slow and smooth, or fan at a gentle pace, and the ember turns red and stays red.
+Imagine whistling. The whistle stays clear only while the air stays steady. Blow harder and it screeches. Let the air weaken and it wobbles off the note.
 
-The voice behaves like that ember. The vocal folds, 2 small bands of tissue in your throat, vibrate when air passes between them. A smooth flow keeps that vibration steady. A burst of air followed by a trickle gives you a loud start and a weak finish, which is the choir line from the start of this post.
+Singing works the same way. Air sets your vocal folds, 2 small bands of tissue in your throat, vibrating. Johan Sundberg, a leading voice scientist, showed that the breath pressure under the folds affects pitch, so singers need fine breath control to stay in tune ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. A singer who goes flat at the end of every long phrase may not have a hearing problem at all. They may have a spending problem.
 
-The picture has limits.
+How do you spend slowly?
 
-How fast air leaves also depends on how well the vocal folds close. A breathy tone leaks air even when your breathing is fine, so a singer who runs out early is not always breathing badly. Teachers also still disagree on what "support" means, and a singer told "more support!" every week can end up stiff and tense ([Manternach, Journal of Singing, 2024](https://nats.org/_Library/JOS_On_Point/JOS-081-2-2024-205.pdf)).
+- **Keep the lower ribs open as you sing.** Let your belly come in gradually, but keep the ribs wide for as long as you comfortably can. If your chest collapses on the first word, the air rushes out with it.
+- **Sing on a steady stream.** Think of the line as one even thread of air, like a good whistle, instead of a push on every word.
+- **Give high notes a little more, not a blast.** Higher notes do need a bit more breath pressure. Add it the way you press a car's accelerator on a hill: steady and measured. A sudden shove of air makes the note harsh and empties you for the next line. I wrote about this in [Stop shouting your high notes](https://blog.joshuaediale.com/posts/stop-shouting-your-high-notes/).
 
-This is why a long hiss on "sss" is such a useful exercise. You can hear the stream. If the hiss gets louder, then softer, then stops early, your air is leaving unevenly. The Handbook's breathing exercise ends with this same instruction: exhale on "sss" and keep the sound even until the air is used up.
+Breath is not the whole story, though. Running out early has other causes too. If your vocal folds don't close well, the tone is breathy and air leaks out even when your breathing is fine. And "support" has been described in so many ways that a singer told "more support!" every week can end up stiff and tense ([Manternach, Journal of Singing, 2024](https://nats.org/_Library/JOS_On_Point/JOS-081-2-2024-205.pdf)). Support should feel firm and steady, never rigid. If your neck, jaw or shoulders tighten, you have started squeezing.
 
-The aim is a level stream. Nobody wins a prize for the longest hiss. Stop before you feel empty or dizzy. A 60-year-old chorister and a 19-year-old will not last the same length, and they should not have to.
+## Part 3: Plan where you breathe
+
+Choirs and worship teams win or lose a song right here.
+
+Most singers breathe when they run out. A budgeting singer breathes where the words allow. Before Sunday:
+
+- **Find where each person runs out.** Take the longest line. Sing it on a hiss, then on "oo", then with the words. Each singer notes the word where the air fails. That word tells you where the breath has to move.
+- **Breathe where the meaning pauses, and mark it.** Commas, the end of a thought, the gap after a name. Never in the middle of a word, and try not to split "Your" from "name". Tick each agreed breath on the lyric sheet so the team breathes together.
+- **Stagger the long notes.** On a held note no one can sustain, don't let the whole choir breathe at once and leave a hole in the sound. Each singer takes a quick breath at a different moment, away from the start or end of the phrase, and rejoins softly. The congregation hears one unbroken sound.
+
+If you lead, you have 3 extra problems.
+
+First, you talk. You exhort, pray and give instructions, then sing again straight away. Take a low breath before the next line, even if it costs you a moment. A short pause hardly registers. A gasp into the microphone does.
+
+Second, the fast praise medley. When you are moving or dancing, there is no time for a deep breath, so the snatch breath and the plan carry you. Breathe on the rests the band gives you, and let the team carry a line while you breathe. You don't have to sing every word to lead it.
+
+Third, nerves steal your breath. Anxiety makes breathing fast and high, the kind that gives you no control. When you feel it, slow your next 3 breaths and send them low. I wrote more about that pressure in [The panel of judges in your head](https://blog.joshuaediale.com/posts/panel-of-judges-in-your-head/).
 
 ## "Every thing that hath breath"
 
 > "Let every thing that hath breath praise the LORD. Praise ye the LORD." (Psalm 150:6)
 
-Read it slowly.
+The last psalm lists trumpets, harps, timbrels, strings, organs and cymbals, then ends on the one instrument everyone in the building already owns.
 
-"Let every thing." The invitation is as wide as it can be. No section is left out, and no voice type.
+The only qualification it names is breath. Not range, not tone. And that breath is given to be spent on praise. If breath is the gift, then how we spend it is stewardship, and breath budgeting is one small, practical way of handling it well.
 
-"That hath breath." This is the only qualification the verse names. It says nothing about range or tone.
+## Before Sunday: train it, then test it
 
-"Praise the LORD." The breath has a purpose. It was given to be spent on something.
+Give the start of your next rehearsal to breath. Stand in the posture above. Hands on belly and waist, take 3 slow breaths through the nose and check that the hands move first.
 
-Psalm 150 is the last psalm, and it lists trumpets, harps, timbrels, strings, organs and loud cymbals. Then it ends on the one instrument every person in the building already owns.
+Then the even hiss: breathe in for 4 counts, then out on "sss" for 8 counts at one steady volume, 4 times. If the hiss starts loud and fades, you are spending too fast, so begin softer. If it wobbles, keep the ribs wide. Stop if anyone feels dizzy. Build slowly: 8 counts this week, 10 next week, then 12.
 
-If breath is what qualifies us, then how we use it is stewardship. In the parable of the talents, the master asked each servant what he had done with what he was given. A breath budget is a small, practical way of handling one gift well.
+Then take the longest line of your first song, find where each singer runs out, mark the breaths and practise one staggered held note.
 
-## A 6-minute breath warm-up for your next rehearsal
+Now test it, so you know it is working:
 
-Give the first 6 minutes of your next rehearsal to breath. Take this list with you.
-
-- **Stand ready (1 minute).** Feet planted about shoulder-width apart, knees soft, shoulders down and loose. Let anyone who needs to sit, sit tall.
-- **Hiss test (2 minutes).** Breathe in gently through the nose for 4 counts. Breathe out on "sss" for 8 counts, keeping the hiss at one volume. Do 4 rounds. Stop if anyone feels dizzy.
-- **Mark the breaths (2 minutes).** Take the longest line in your first song for Sunday. As a team, agree where everyone breathes and mark it on the lyric sheet with a tick.
-- **One line, one breath (1 minute).** Sing that line at a comfortable volume, from one tick to the next. If most of the team cannot reach the end, move the tick rather than force the line.
+1. Today, time your longest even hiss from a comfortable full breath, without straining. Write the number down.
+2. Today, record the team singing that marked line on your phone.
+3. In 4 weeks, do both again. Look for a steadier hiss and a last word with no gasp before it. A 60-year-old chorister does not need to match a 19-year-old.
 
 If a singer's voice stays hoarse for more than 2 to 3 weeks, or singing hurts, they should see a doctor, ideally an ENT specialist.
 
-Then, on Sunday, listen to the last word of that line. If it arrives whole, with no gasp in the middle, your choir has started spending its breath on purpose.
+Then, on Sunday, listen to the last word of that line. If it arrives whole, your team has started spending its breath on purpose.
