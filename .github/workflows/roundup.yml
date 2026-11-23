@@ -22,6 +22,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             FILES="${{ github.event.inputs.file }}"
+            case "$FILES" in inspect:*) python3 scripts/roundup.py --inspect "${FILES#inspect:}"; exit 0;; esac
           else
             FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'roundups/*.json')
           fi

@@ -60,5 +60,11 @@ def create(path):
     return True
 
 
+if len(sys.argv) == 3 and sys.argv[1] == "--inspect":
+    req = urllib.request.Request(f"https://api.kit.com/v4/broadcasts/{sys.argv[2]}", headers={"X-Kit-Api-Key": KEY, "Accept": "application/json"})
+    b = json.loads(urllib.request.urlopen(req, timeout=30).read().decode()).get("broadcast", {})
+    print("filter:", json.dumps(b.get("subscriber_filter")), "| send_at:", b.get("send_at"), "| has_unsubscribe_in_content:", "unsubscribe" in (b.get("content") or "").lower())
+    sys.exit(0)
+
 ok = all(create(p) for p in sys.argv[1:] if p.endswith(".json"))
 sys.exit(0 if ok else 1)
