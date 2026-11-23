@@ -58,7 +58,7 @@ Don't overdo it either. Voice researcher Sally Collyer reports that singers usua
 
 This is where the budget lives, and it is what makes legato possible: smooth, connected singing with no bumps between the notes.
 
-Higher notes need a bit more breath pressure, and that pressure also affects pitch. Johan Sundberg, a leading voice scientist, showed that this is why singers need fine breath control to stay in tune ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. A singer who goes flat at the end of every long phrase may not have a hearing problem at all. They may have a spending problem.
+Notes higher in your range, especially in your upper register, need a bit more breath pressure, and that pressure also affects pitch. Johan Sundberg, a leading voice scientist, showed that this is why singers need fine breath control to stay in tune, what musicians call intonation ([Sundberg, Journal of Singing, 1993](https://www.nats.org/_Library/Kennedy_JOS_Files_2013/JOS-049-3-1993-004.pdf)). So when your air is uneven, your pitch goes uneven. A singer who goes flat at the end of every long phrase may not have a hearing problem at all. They may have a spending problem.
 
 Three habits help:
 
@@ -82,13 +82,13 @@ And breath is not the whole story. If your tone is breathy, air may be leaking b
 
 ## Plan where you breathe
 
-Choirs and worship teams win or lose a song right here.
+Choirs, worship teams and BGVs (backing vocalists) win or lose a song right here.
 
 Most singers breathe when they run out. A singer with a budget breathes where the words allow. That is phrasing: shaping the line so the breaths serve the meaning.
 
-Before Sunday, take the longest line in your set and agree where everyone breathes. Choose places where the meaning pauses: a comma, the end of a thought. Not in the middle of a word, and please don't split "Your" from "name". Put a small tick on the lyric sheet so the team breathes together.
+Before Sunday, take the longest line in your set and agree where everyone breathes. Choose places where the meaning pauses: a comma, the end of a thought. Not in the middle of a word, and please don't split "Your" from "name". Put a small tick, a breath mark, on the lyric sheet so the team breathes together.
 
-On a long held note, don't let the whole choir breathe at the same time and leave a hole in the sound. Use staggered breathing: each singer sneaks a quick breath at a different moment and comes back in softly. The congregation hears one unbroken sound. Nobody needs to know you were all taking turns.
+In most worship teams, everyone breathes together at the same marked places. That shared breath keeps your timing and your blend (how the voices merge into one sound) tight, and it makes every cut-off, the moment the team stops a note, clean. In a big choir, where several singers share each part, a director may use staggered breathing on a very long sustained note: singers in the same section breathe at different moments so the sound never breaks. That is a special tool for a few places, not a habit, and it does not suit a small team where each part has only one or two voices.
 
 If you lead, you have 2 extra challenges.
 
