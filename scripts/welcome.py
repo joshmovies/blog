@@ -24,7 +24,7 @@ TAG_NAME = "welcome-sent"
 SENDER = "joshua@joshuaediale.com"
 SMTP_HOST, SMTP_PORT = "smtp.hostinger.com", 465
 # Subscribers who joined before this moment already got Kit's own welcome email.
-START = datetime(2026, 11, 23, 15, 40, tzinfo=timezone.utc)
+START = datetime(2026, 11, 23, 15, 30, tzinfo=timezone.utc)
 
 KEY = os.environ.get("KIT_API_KEY", "").strip()
 PASS = os.environ.get("SMTP_PASS", "")
